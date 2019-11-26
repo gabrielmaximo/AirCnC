@@ -3,14 +3,14 @@ const mongoose = require('mongoose');
 const BookingSchema = new mongoose.Schema({
   date: String,
   approved: Boolean,
-  userId: {
+  user: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
+    ref: 'User'
   },
-  spotId: {
+  spot: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Spot',
-  },
+    ref: 'Spot'
+  }
 });
 
 module.exports = mongoose.model('Booking', BookingSchema);

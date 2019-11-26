@@ -1,9 +1,10 @@
-import './App.css';
-
 import React from 'react';
 
-import Routes from './routes';
+import './App.css';
+
 import logo from './assets/logo.svg';
+
+import Routes from './routes';
 
 function App() {
   return (
@@ -12,7 +13,6 @@ function App() {
 
       <div className="content">
         <Routes />
-        
       </div>
     </div>
   );

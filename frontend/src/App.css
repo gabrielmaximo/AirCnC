@@ -9,7 +9,6 @@
 
 html, body, #root {
   min-height: 100%;
-
 }
 
 body {
@@ -25,7 +24,7 @@ body, input, button {
 
 .container {
   margin: 80px auto 0;
-  max-width: 460px;
+  max-width: 450px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -35,8 +34,8 @@ body, input, button {
 .content {
   width: 100%;
   background: #FFF;
-  margin-top: 60px;
-  border-radius: 30px;
+  margin-top: 50px;
+  border-radius: 4px;
   padding: 30px;
 }
 
@@ -46,19 +45,19 @@ body, input, button {
   margin-bottom: 30px;
 }
 
-.content > form {
+.content form {
   display: flex;
   flex-direction: column;
 }
 
 .content form label {
-  font-size: 15px;
+  font-size: 14px;
   color: #444;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.content form span {
+.content form label span {
   font-weight: normal;
   color: #999;
   font-size: 12px;
@@ -66,27 +65,26 @@ body, input, button {
 
 .content form input {
   margin-bottom: 20px;
-  border: 1px solid #b4b4b4;
-  border-radius: 15px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
   height: 45px;
-  padding: 0px 15px;
-  font-size: 18px;
+  padding: 0 15px;
+  font-size: 16px;
 }
 
 .content button.btn {
-  border: 0 #444;
-  border-radius: 15px;
+  border: 0;
+  border-radius: 2px;
   width: 100%;
-  height: 40px;
+  height: 42px;
   padding: 0 20px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  background: #ff4444;
+  background: #f05a5b;
   color: #fff;
   cursor: pointer;
 }
 
 .content button.btn:hover {
-  background: #ff2020;
-  transition: 0.6s;
+  background: #e14f50;
 }

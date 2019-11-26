@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const User = require('../models/User');
 
 module.exports = {
@@ -12,5 +11,5 @@ module.exports = {
     }
 
     return res.json(user);
-  },
+  }
 };
